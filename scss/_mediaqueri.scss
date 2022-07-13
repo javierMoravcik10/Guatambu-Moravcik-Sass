@@ -1,0 +1,88 @@
+@media screen and (max-width: 776px) {     
+
+
+    .seleccion {
+        height: auto;
+    }
+
+}
+
+
+    /* MEDIA QUERI HTML NOSOTROS */
+
+@media screen and (max-width: 776px) {
+.descripcionNosotrosTitulo {
+font-size: 17px;
+width: 300px;
+margin-left: 80px;
+}
+
+.nos {
+margin-top: 20px;
+}
+
+}
+
+
+/* MEDIA QUERI NOSTROS BOOTSTRAP */
+
+@media screen and (max-width: 776px) {
+.contenedorContacto2 {
+display: grid;
+grid-template-columns: 100%;
+
+grid-template-areas: "datosContacto";
+}
+
+.datosContacto {
+grid-area: datosContacto;
+}
+
+.bannerContacto {
+background-image: url(./Imagenes/bannercontacto.jpg);
+background-position: -270px;
+}
+
+.textoBannerContacto {
+margin-top: -20px;
+}
+
+.submit, .reset {
+padding-left: 5px;
+}
+}
+
+
+/* MEDIA QUERI HOMBRE BOOTSTRAP */
+
+@media screen and (max-width: 776px) {
+ .pCHLista2 {
+    display: none;
+ }
+
+ .cardTamaño {
+    width: 200px;
+    text-align: center;
+ }
+
+ .h3Productos, .folder {
+    text-align: center;
+ }
+
+ .listaCatalogo {
+    margin-left: -10px;
+ }
+
+ .hrBarra {
+    margin-left: 20px;
+ }
+
+ .tarjeta {
+    display: contents;
+    flex-direction: row;
+ }
+
+ .aVer {
+    justify-content: space-around;
+ }
+}

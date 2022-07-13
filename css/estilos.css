@@ -1,0 +1,299 @@
+@charset "UTF-8";
+body {
+  background-color: black;
+}
+
+#cuotas {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 22px;
+}
+
+/* anidando con sass seccion inicio*/
+h1 {
+  font-size: 17px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+h1:hover {
+  text-decoration: underline;
+  color: red;
+  transition: 0.2s;
+}
+
+.logoNav {
+  filter: drop-shadow(7px 7px 10px rgb(0, 0, 0));
+}
+.logoNav:hover {
+  transform: scale(1.1);
+  transition: all 0.8s;
+  overflow: hidden;
+}
+
+/* anidando con sass seccion inicio*/
+.logoFooter:hover {
+  filter: drop-shadow(7px 7px 10px rgb(255, 255, 255));
+}
+
+.logoFooter:hover {
+  transform: scale(1.1);
+  transition: all 0.8s;
+  overflow: hidden;
+}
+
+.logoNav, .logoFooter {
+  border-radius: 5px;
+}
+
+.li1 {
+  color: brown;
+}
+
+/* anidando con sass seccion inicio*/
+ul li {
+  font-size: 20px;
+  font-weight: bold;
+}
+ul li:hover {
+  text-decoration: underline;
+}
+
+.subMenu {
+  position: absolute;
+  background: black;
+  border-radius: 5px;
+  display: none;
+  list-style: none;
+}
+.subMenu li a {
+  display: block;
+  font-size: 15px;
+  padding: 10px;
+  color: #fff;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+/* anidando con sass seccion inicio */
+.menu li:hover .subMenu {
+  display: block;
+}
+
+.subMenu li a:hover {
+  text-decoration: none;
+  border-radius: 10px;
+  border-top: none;
+  color: red;
+}
+
+.buscador {
+  margin-top: 10px;
+  margin-right: 60px;
+  width: 300px;
+}
+
+.bordeNav {
+  border-bottom: 2px solid black;
+}
+
+/* anidando con sass seccion inicio */
+.seleccion {
+  background-image: url(../Imagenes/Green-leaves-texture-wood-board-background_3840x1200.jpg);
+  background-size: cover;
+  background-blend-mode: soft-light;
+  height: 750px;
+  background-color: rgb(24, 24, 24);
+  background-attachment: fixed;
+}
+.seleccion .margen {
+  margin-right: 30px;
+}
+.seleccion .card {
+  background-color: transparent;
+  margin-top: 50px;
+}
+.seleccion .card .tamaño {
+  width: 300px;
+  opacity: 75%;
+}
+.seleccion .card .tamaño:hover {
+  border: 2px dashed white;
+  opacity: 100%;
+  transition: all 0.5s;
+  transform: scale(1.1);
+  overflow: hidden;
+  filter: drop-shadow(7px 7px 10px rgb(91, 155, 32));
+}
+
+/* anidando con sass seccion INICIO*/
+.margenCarousel, .datosContacto2 {
+  margin-top: 118px;
+}
+
+i {
+  color: white;
+}
+
+.formulario {
+  background-color: black;
+  color: white;
+  height: auto;
+  border-bottom: 1px solid white;
+}
+
+h2 {
+  padding: 30px;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.formu {
+  margin-top: 30px;
+}
+
+/* anidando con sass seccion inicio */
+.btn-primary {
+  background-color: green;
+  border-color: white;
+}
+.btn-primary:hover {
+  font-weight: bold;
+  background-color: green;
+  transform: scale(0.9);
+  border-color: white;
+}
+.btn-primary:focus {
+  background-color: blue;
+}
+
+/* anidando con sass seccion inicio */
+/* 
+.fondo {
+    background-color: black;
+    height: 560px;
+} */
+/* anidando con sass seccion INICIO*/
+footer {
+  border-top: 1px solid white;
+  height: 550px;
+}
+footer .divFooter {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+footer .divFooter .tituloNav {
+  font-size: 22px;
+  font-family: sans-serif;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+footer .divFooter .refNav {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 15px;
+}
+footer .divFooter .refNav:hover {
+  color: rgb(190, 10, 10);
+}
+footer .divFooter .bi-facebook, footer .divFooter .bi-instagram, footer .divFooter .bi-whatsapp {
+  font-size: 30px;
+  margin: 10px;
+}
+footer .divFooter .bi-facebook:hover {
+  color: rgb(73, 96, 230);
+}
+footer .divFooter .bi-instagram:hover {
+  color: rgb(201, 72, 72);
+}
+footer .divFooter .bi-whatsapp:hover {
+  color: green;
+}
+
+/* anidando con sass seccion INICIO*/
+.parrafoCopyright {
+  margin-top: 90px;
+}
+
+.hrBarra {
+  height: 4px;
+  background-color: white;
+}
+
+/* HTML NOSOTROS */
+/* HTML HOMBRE BOOTSTRAP */
+/* .CatalogoHombre {
+    border-bottom: 1px solid white;
+} */
+/* .card-title, .card-text, .comprar {
+    text-align: center;
+} */
+/* MEDIA QUERI HTML INDEX */
+@media screen and (max-width: 776px) {
+  .seleccion {
+    height: auto;
+  }
+}
+/* MEDIA QUERI HTML NOSOTROS */
+@media screen and (max-width: 776px) {
+  .descripcionNosotrosTitulo {
+    font-size: 17px;
+    width: 300px;
+    margin-left: 80px;
+  }
+  .nos {
+    margin-top: 20px;
+  }
+}
+/* MEDIA QUERI NOSTROS BOOTSTRAP */
+@media screen and (max-width: 776px) {
+  .contenedorContacto2 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas: "datosContacto";
+  }
+  .datosContacto {
+    grid-area: datosContacto;
+  }
+  .bannerContacto {
+    background-image: url(./Imagenes/bannercontacto.jpg);
+    background-position: -270px;
+  }
+  .textoBannerContacto {
+    margin-top: -20px;
+  }
+  .submit, .reset {
+    padding-left: 5px;
+  }
+}
+/* MEDIA QUERI HOMBRE BOOTSTRAP */
+@media screen and (max-width: 776px) {
+  .pCHLista2 {
+    display: none;
+  }
+  .cardTamaño {
+    width: 200px;
+    text-align: center;
+  }
+  .h3Productos, .folder {
+    text-align: center;
+  }
+  .listaCatalogo {
+    margin-left: -10px;
+  }
+  .hrBarra {
+    margin-left: 20px;
+  }
+  .tarjeta {
+    display: contents;
+    flex-direction: row;
+  }
+  .aVer {
+    justify-content: space-around;
+  }
+}/*# sourceMappingURL=estilos.css.map */
