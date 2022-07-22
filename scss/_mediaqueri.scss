@@ -1,8 +1,13 @@
-@media screen and (max-width: 776px) {     
 
+                    /* MEDIA QUERI HTML INDEX */
+@media screen and (max-width: 776px) {     
 
     .seleccion {
         height: auto;
+    }
+
+    .hrBarra {
+      margin-right: 30px;
     }
 
 }
@@ -24,7 +29,7 @@ margin-top: 20px;
 }
 
 
-/* MEDIA QUERI NOSTROS BOOTSTRAP */
+/* MEDIA QUERI CONTACTO */
 
 @media screen and (max-width: 776px) {
 .contenedorContacto2 {
@@ -39,7 +44,7 @@ grid-area: datosContacto;
 }
 
 .bannerContacto {
-background-image: url(./Imagenes/bannercontacto.jpg);
+background-image: url(../Imagenes/bannercontacto.jpg);
 background-position: -270px;
 }
 
@@ -50,10 +55,34 @@ margin-top: -20px;
 .submit, .reset {
 padding-left: 5px;
 }
+
+.button1 {
+   width: 200px;
+   margin-left: 30px;
+}
 }
 
 
-/* MEDIA QUERI HOMBRE BOOTSTRAP */
+/* MEDIA QUERI HOMBRE */
+
+@media screen and (max-width: 550px) {
+   .cardTamaño {
+      width: 100px;
+      text-align: center;
+      margin-top: 40px;
+   }
+
+   .tarjeta {
+      display: contents;
+      flex-direction: row;
+   }
+  
+   .columnaCatalogo {
+      justify-content: space-around;
+   }
+
+}
+
 
 @media screen and (max-width: 776px) {
  .pCHLista2 {
@@ -63,6 +92,7 @@ padding-left: 5px;
  .cardTamaño {
     width: 200px;
     text-align: center;
+    margin-top: 40px;
  }
 
  .h3Productos, .folder {
@@ -82,7 +112,29 @@ padding-left: 5px;
     flex-direction: row;
  }
 
- .aVer {
+ .columnaCatalogo {
     justify-content: space-around;
  }
+
+}
+
+
+     /* MEDIA QUERI MUJER */
+
+@media screen and (max-width: 776px) {
+
+      .ubicacionMujer {
+         margin-left: 7px;
+      }
+
+}
+
+      /* MEDIA QUERI HTML SKATEBOARDING */
+
+@media screen and (max-width: 776px) {
+
+   .textoMantenimiento {
+      display: none;
+   }
+      
 }
